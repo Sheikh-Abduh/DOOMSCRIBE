@@ -2,11 +2,14 @@
 <html lang="en">
   <head>
   <script>
-  if (/Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
-    document.body.innerHTML = "<h1 style='text-align:center;margin-top:20%;color:white;'>This website is only available on PC.</h1>";
-    document.body.style.backgroundColor = "black";
-  }
+  window.onload = function() {
+    if (/Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+      document.body.innerHTML = "<h1 style='text-align:center;margin-top:20%;color:white;'>This website is only available on PC.</h1>";
+      document.body.style.backgroundColor = "black";
+    }
+  };
 </script>
+
 
  
     
