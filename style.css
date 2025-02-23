@@ -1,11 +1,4 @@
 
-@media screen and (max-width: 768px) {
-    body {
-        display: none; /* Hides everything on mobile */
-    }
-}
-
-
 @font-face {
   font-family: "MinsterNo3";
   font-style: normal;
